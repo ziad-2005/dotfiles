@@ -1,0 +1,151 @@
+# Starship Configuration
+# Shell: Zsh | Style: Clean, no background | Nerd Font MDI icons
+
+# ── Prompt Layout ────────────────────────────────────────────────────────────
+format = """
+$directory\
+$git_branch\
+$git_status\
+$git_commit\
+$git_state\
+$nodejs\
+$python\
+$rust\
+$golang\
+$java\
+$php\
+$ruby\
+$cmd_duration\
+$line_break\
+$character"""
+
+# ── General ───────────────────────────────────────────────────────────────────
+add_newline = true
+continuation_prompt = '[❯❯ ](dimmed #9D7CD8) '
+
+# ── Directory ─────────────────────────────────────────────────────────────────
+[directory]
+style = "bold #2dd4bf"
+truncation_length = 4
+truncate_to_repo = true
+read_only = " 󰌾"
+read_only_style = "red"
+format = "[󰋜 $path]($style)[$read_only]($read_only_style) "
+substitutions = {
+  "~/Desktop"          = "󰇄 ~/Desktop",
+  "~/Dev"              = "󰲋 ~/Dev",
+  "~/Documents"        = "󰈙 ~/Documents",
+  "~/Downloads"        = "󰉍 ~/Downloads",
+  "~/Fun"              = "󰊡 ~/Fun",
+  "~/flashdrive"       = "󱊞 ~/flashdrive",
+  "~/Mine"             = "󰀄 ~/Mine",
+  "~/Music"            = "󱍙 ~/Music",
+  "~/OBS"              = "󰑋 ~/OBS",
+  "~/Pictures"         = "󰉏 ~/Pictures",
+  "~/Postman"          = "󱂛 ~/Postman",
+  "~/Public"           = "󰉋 ~/Public",
+  "~/Shared_AndFed"    = "󰉒 ~/Shared_AndFed",
+  "~/sqlcl"            = "󰆼 ~/sqlcl",
+  "~/Temp"             = "󰪺 ~/Temp",
+  "~/Templates"        = "󰈙 ~/Templates",
+  "~/TLauncher.v17"    = "󰊖 ~/TLauncher",
+  "~/Videos"           = "󰎁 ~/Videos",
+  "~/VirtualBox VMs"   = "󰋊 ~/VirtualBox VMs",
+  "~/windows programs" = "󰍲 ~/windows programs",
+  "~/pt"               = "󰙴 ~/pt",
+}
+
+# ── Git Branch ────────────────────────────────────────────────────────────────
+[git_branch]
+style = "bold #a78bfa"
+symbol = "󰘬 "                   # U+F062C - source branch
+format = "[$symbol$branch]($style) "
+
+# ── Git Status ────────────────────────────────────────────────────────────────
+[git_status]
+style = "bold #a78bfa"
+format = '([$all_status$ahead_behind]($style) )'
+conflicted = "󰞇 "              # U+F0787 - alert-circle
+ahead = "󰁝${count} "           # U+F005D - arrow-up
+behind = "󰁅${count} "          # U+F0045 - arrow-down
+diverged = "󰹹${count} "        # U+F0E79 - arrow-split
+untracked = "󰋖 ${count} "      # U+F02D6 - file-question
+stashed = "󰆼 "                 # U+F01BC - package
+modified = "󰝶 ${count} "       # U+F0776 - file-edit
+staged = "󰸩 ${count} "         # U+F0E29 - check
+renamed = "󰑕 ${count} "        # U+F0455 - rename
+deleted = "󰆳 ${count} "        # U+F01B3 - file-remove
+
+# ── Git Commit ────────────────────────────────────────────────────────────────
+[git_commit]
+style = "bold #a78bfa"
+commit_hash_length = 7
+tag_symbol = "󰓼 "              # U+F04FC - tag
+format = '[󰜘 $hash$tag]($style) '  # U+F0718 - commit
+
+# ── Git State ─────────────────────────────────────────────────────────────────
+[git_state]
+style = "bold yellow"
+format = '\([󰅚 $state( $progress_current/$progress_total)]($style)\) '  # U+F015A - progress
+rebase = "REBASE"
+merge = "MERGE"
+revert = "REVERT"
+cherry_pick = "󰇥 PICK"         # U+F01E5 - cherry
+bisect = "BISECT"
+am = "AM"
+am_or_rebase = "AM/REBASE"
+
+# ── Node.js ───────────────────────────────────────────────────────────────────
+[nodejs]
+symbol = "󰎙 "                  # U+F0399 - nodejs
+style = "bold #68a063"
+format = "[$symbol$version]($style) "
+detect_extensions = ["js", "mjs", "cjs", "ts", "tsx", "jsx"]
+
+# ── Python ────────────────────────────────────────────────────────────────────
+[python]
+symbol = "󰌠 "                  # U+F0320 - python
+style = "bold #ffda4b"
+format = "[$symbol$version]($style) "
+detect_extensions = ["py"]
+
+# ── Rust ──────────────────────────────────────────────────────────────────────
+[rust]
+symbol = "󱘗ust "                  # U+F1617 - rust
+style = "bold #ce4b2a"
+format = "[$symbol$version]($style) "
+
+# ── Go ────────────────────────────────────────────────────────────────────────
+[golang]
+symbol = "󰟓 "                  # U+F07D3 - go
+style = "bold #00acd7"
+format = "[$symbol$version]($style) "
+
+# ── Java ──────────────────────────────────────────────────────────────────────
+[java]
+symbol = "󰬷 "                  # U+F0B37 - java
+style = "bold #f89820"
+format = "[$symbol$version]($style) "
+
+# ── PHP ───────────────────────────────────────────────────────────────────────
+[php]
+symbol = "󰌟 "                  # U+F031F - php
+style = "bold #777bb4"
+format = "[$symbol$version]($style) "
+
+# ── Ruby ──────────────────────────────────────────────────────────────────────
+[ruby]
+symbol = "󰴭 "                  # U+F0D2D - ruby
+style = "bold #cc342d"
+format = "[$symbol$version]($style) "
+
+# ── Command Duration ──────────────────────────────────────────────────────────
+[cmd_duration]
+min_time = 2_000
+style = "bold #facc15"
+format = "[󱎫 $duration]($style) "   # U+F1BAB - timer
+
+# ── Prompt Character ──────────────────────────────────────────────────────────
+[character]
+success_symbol = "[❯](bold #2dd4bf)"
+error_symbol   = "[❯](bold red)"
