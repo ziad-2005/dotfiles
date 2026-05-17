@@ -1,0 +1,20 @@
+[Desktop Entry]
+Categories=System;TerminalEmulator;
+Comment[en_US]=Terminal with no Kitty config
+Comment=Terminal with no Kitty config
+Exec=kitty --config /dev/null
+GenericName[en_US]=
+GenericName=
+Icon=deepin-terminal
+MimeType=
+Name[en_US]=Kitty (no Config)
+Name=Kitty (no Config)
+NoDisplay=false
+Path=
+PrefersNonDefaultGPU=false
+StartupNotify=true
+Terminal=false
+TerminalOptions=
+Type=Application
+X-KDE-SubstituteUID=false
+X-KDE-Username=
