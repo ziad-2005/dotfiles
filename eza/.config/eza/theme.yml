@@ -1,0 +1,269 @@
+# ~/.config/eza/theme.yml
+filenames:
+  Desktop:
+    icon:
+      glyph: "󰇄"
+  Dev:
+    icon:
+      glyph: "󰲋"
+  Documents:
+    icon:
+      glyph: "󰈙"
+  Downloads:
+    icon:
+      glyph: "󰉍"
+  Fun:
+    icon:
+      glyph: "󰊡"
+  flashdrive:
+    icon:
+      glyph: "󱊞"
+  Mine:
+    icon:
+      glyph: "󰉌"
+  Music:
+    icon:
+      glyph: "󱍙"
+  OBS:
+    icon:
+      glyph: "󰑋"
+  Pictures:
+    icon:
+      glyph: "󰉏"
+  Postman:
+    icon:
+      glyph: "󱂛"
+  Shared_AndFed:
+    icon:
+      glyph: "󰉒"
+  sqlcl:
+    icon:
+      glyph: "󰆼"
+  Temp:
+    icon:
+      glyph: "󰪺"
+  Templates:
+    icon:
+      glyph: "󰈙"
+  TLauncher.v17:
+    icon:
+      glyph: "󰊖"
+  Videos:
+    icon:
+      glyph: "󰎁"
+  VirtualBox VMs:
+    icon:
+      glyph: "󰋊"
+  windows programs:
+    icon:
+      glyph: "󰍲"
+  pt:
+    icon:
+      glyph: "󰙴"
+  niri-setup.sh:
+    icon:
+      glyph: "󱄅"
+  dotfiles_repo_structure.svg:
+    icon:
+      glyph: "󰈞"
+  installed_list.txt:
+    icon:
+      glyph: "󰋃"
+  afs:
+    icon:
+      glyph: "󰋞"
+  boot:
+    icon:
+      glyph: "󰒋"
+  bin:
+    icon:
+      glyph: "󰅢"
+  builddir:
+    icon:
+      glyph: "󰒍"
+  dev:
+    icon:
+      glyph: "󰍛"
+  etc:
+    icon:
+      glyph: "󰒓"
+  home:
+    icon:
+      glyph: "󰋜"
+  lib:
+    icon:
+      glyph: "󰒌"
+  lib64:
+    icon:
+      glyph: "󰒌"
+  media:
+    icon:
+      glyph: "󰉗"
+  mnt:
+    icon:
+      glyph: "󰜫"
+  opt:
+    icon:
+      glyph: "󰒉"
+  proc:
+    icon:
+      glyph: "󰓇"
+  root:
+    icon:
+      glyph: "󰢮"
+  run:
+    icon:
+      glyph: "󰒐"
+  sbin:
+    icon:
+      glyph: "󰒏"
+  srv:
+    icon:
+      glyph: "󰒑"
+  sys:
+    icon:
+      glyph: "󰒎"
+  tmp:
+    icon:
+      glyph: "󰆼"
+  usr:
+    icon:
+      glyph: "󰒔"
+  var:
+    icon:
+      glyph: "󰒕"
+  .bun:
+    icon:
+      glyph: "󰛦"
+  .cache:
+    icon:
+      glyph: "󰃨"
+  .cargo:
+    icon:
+      glyph: "󱘗"
+  .config:
+    icon:
+      glyph: "󰒓"
+  .copilot:
+    icon:
+      glyph: "󰊤"
+  .dbtools:
+    icon:
+      glyph: "󰆼"
+  .dialogrc:
+    icon:
+      glyph: "󰒓"
+  .dotnet:
+    icon:
+      glyph: "󰪮"
+  .eclipse:
+    icon:
+      glyph: "󰀄"
+  .git-credentials:
+    icon:
+      glyph: "󰊢"
+  .gnupg:
+    icon:
+      glyph: "󰢬"
+  .gtkrc-2.0:
+    icon:
+      glyph: "󰒓"
+  .gtkrc-2.0-kde4:
+    icon:
+      glyph: "󰒓"
+  .gvimrc:
+    icon:
+      glyph: "󰕷"
+  .icons:
+    icon:
+      glyph: "󰀻"
+  .java:
+    icon:
+      glyph: "󰬷"
+  .local:
+    icon:
+      glyph: "󰉋"
+  .m2:
+    icon:
+      glyph: "󰌦"
+  .minecraft:
+    icon:
+      glyph: "󰍎"
+  .mongodb:
+    icon:
+      glyph: "󱘲"
+  .mozilla:
+    icon:
+      glyph: "󰈹"
+  .node_repl_history:
+    icon:
+      glyph: "󰎙"
+  .npm:
+    icon:
+      glyph: "󰎙"
+  .oh-my-zsh:
+    icon:
+      glyph: "󱆃"
+  .openjfx:
+    icon:
+      glyph: "󰬷"
+  .p2:
+    icon:
+      glyph: "󰏗"
+  .packettracer:
+    icon:
+      glyph: "󰛳"
+  .pass_store:
+    icon:
+      glyph: "󰌾"
+  .pki:
+    icon:
+      glyph: "󰢬"
+  .prompts:
+    icon:
+      glyph: "󰭻"
+  .python_history:
+    icon:
+      glyph: "󰌠"
+  .rustup:
+    icon:
+      glyph: "󱘗"
+  .shell.pre-oh-my-zsh:
+    icon:
+      glyph: "󱆃"
+  .solver.txt:
+    icon:
+      glyph: "󰈙"
+  .swt:
+    icon:
+      glyph: "󰀄"
+  .tlauncher:
+    icon:
+      glyph: "󰊖"
+  .var:
+    icon:
+      glyph: "󰒕"
+  .vim:
+    icon:
+      glyph: "󰕷"
+  .viminfo:
+    icon:
+      glyph: "󰕷"
+  .vscode:
+    icon:
+      glyph: "󰨞"
+  .vscode-oss:
+    icon:
+      glyph: "󰨞"
+  .vscode-shared:
+    icon:
+      glyph: "󰨞"
+  .zcompdump-192-5.9:
+    icon:
+      glyph: "󱆃"
+  .zcompdump-fedora-5.9:
+    icon:
+      glyph: "󱆃"
+  .zshrc.pre-oh-my-zsh:
+    icon:
+      glyph: "󱆃"

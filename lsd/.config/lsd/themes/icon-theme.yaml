@@ -1,0 +1,27 @@
+icon-theme:
+  name: icon-theme
+  icons-by-name:
+    Desktop:          { icon: 󰇄, color: Cyan }
+    Dev:              { icon: 󰲋, color: Cyan }
+    Documents:        { icon: 󰈙, color: Cyan }
+    Downloads:        { icon: 󰉍, color: Cyan }
+    Fun:              { icon: 󰊡, color: Cyan }
+    flashdrive:       { icon: 󱊞, color: Cyan }
+    Mine:             { icon: 󰉌, color: Cyan }
+    Music:            { icon: 󱍙, color: Cyan }
+    OBS:              { icon: 󰑋, color: Cyan }
+    Pictures:         { icon: 󰉏, color: Cyan }
+    Postman:          { icon: 󱂛, color: Cyan }
+    Public:           { icon: 󰉋, color: Cyan }
+    Shared_AndFed:    { icon: 󰉒, color: Cyan }
+    sqlcl:            { icon: 󰆼, color: Cyan }
+    Temp:             { icon: 󰪺, color: Cyan }
+    Templates:        { icon: 󰈙, color: Cyan }
+    TLauncher.v17:    { icon: 󰊖, color: Cyan }
+    Videos:           { icon: 󰎁, color: Cyan }
+    VirtualBox VMs:   { icon: 󰋊, color: Cyan }
+    windows programs: { icon: 󰍲, color: Cyan }
+    pt:               { icon: 󰙴, color: Cyan }
+    niri-setup.sh:    { icon: 󱄅, color: Green }
+    dotfiles_repo_structure.svg: { icon: 󰈞, color: Cyan }
+    installed_list.txt: { icon: 󰋃, color: Cyan }
