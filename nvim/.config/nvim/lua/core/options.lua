@@ -12,3 +12,10 @@ vim.opt.winblend = 20
 vim.opt.pumblend = 20
 vim.g.mapleader = " "
 vim.g.maplocalleader = " "
+vim.opt.guicursor = {
+    "n-v-c:block",     -- Normal/Visual/Command
+    "i-ci-ve:ver25",   -- Insert modes
+    "r-cr:hor20",      -- Replace
+    "o:hor50",         -- operator-pending
+}
+
