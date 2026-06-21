@@ -53,6 +53,7 @@ export EZA_CONFIG_DIR="$HOME/.config/eza"
 # =============================================================================
 alias temp='cd ~/Mine/Temp'
 alias mine='cd ~/Mine'
+alias links='vchad ~/.mylinks'
 
 
 # =============================================================================
@@ -67,7 +68,7 @@ alias vchad='NVIM_APPNAME=nvchad nvim'
 # Core utilities
 # =============================================================================
 alias ls='eza --icons'
-alias ll='ls -lh'
+alias lh='ls -lh'
 alias la='ls -A'
 alias lla='ls -lAh'
 alias llla='ls -lA --blocks permission,size,date,name --date "+%d/%m"'
@@ -81,7 +82,6 @@ alias mv='mv -iv'
 alias rm='rm -iv'
 
 alias df='df -h'
-alias du='du -h -d 1'
 
 # =============================================================================
 # Search & text
