@@ -53,7 +53,6 @@ export EZA_CONFIG_DIR="$HOME/.config/eza"
 # =============================================================================
 alias temp='cd ~/Mine/Temp'
 alias mine='cd ~/Mine'
-alias links='vchad ~/.mylinks'
 
 
 # =============================================================================
