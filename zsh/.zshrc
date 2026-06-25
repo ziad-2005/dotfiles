@@ -3,16 +3,16 @@
 # PATH — set before Oh My Zsh loads
 # Deduplication prevents repeated entries on `source ~/.zshrc`
 # =============================================================================
-export BUN_INSTALL="$HOME/.bun"
+#export BUN_INSTALL="$HOME/.bun"
 export RC="$HOME/.zshrc"
 # Prepend only if not already present
 _prepend_path() {
     [[ ":$PATH:" != *":$1:"* ]] && export PATH="$1:$PATH"
 }
 
-_prepend_path "$HOME/.local/bin"
-_prepend_path "$HOME/Mine/My_bin"
-_prepend_path "$BUN_INSTALL/bin"
+#_prepend_path "$HOME/.local/bin"
+_prepend_path "$HOME/Mine/my_bin"
+#_prepend_path "$BUN_INSTALL/bin"
 
 unfunction _prepend_path
 # =============================================================================
