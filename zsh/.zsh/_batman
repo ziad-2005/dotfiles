@@ -1,0 +1,3 @@
+#compdef batman
+
+compdef _man batman

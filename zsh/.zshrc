@@ -15,6 +15,12 @@ _prepend_path "$HOME/Mine/my_bin"
 #_prepend_path "$BUN_INSTALL/bin"
 
 unfunction _prepend_path
+#update fpath
+fpath=(~/.zsh $fpath)
+
+autoload -Uz compinit
+compinit
+
 # =============================================================================
 # Oh My Zsh
 # =============================================================================
@@ -91,7 +97,6 @@ alias fgrep='fgrep --color=auto'
 alias findd='find . -type d -name'
 alias findf='find . -type f -name'
 alias cleanup='find . -type f -name "*~" -delete'
-alias batman='f(){ man "$@" | bat -l man -p; }; f'
 
 # =============================================================================
 # System info & monitoring
