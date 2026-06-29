@@ -10,7 +10,7 @@ _prepend_path() {
     [[ ":$PATH:" != *":$1:"* ]] && export PATH="$1:$PATH"
 }
 
-#_prepend_path "$HOME/.local/bin"
+_prepend_path "$HOME/.local/bin"
 _prepend_path "$HOME/Mine/my_bin"
 #_prepend_path "$BUN_INSTALL/bin"
 

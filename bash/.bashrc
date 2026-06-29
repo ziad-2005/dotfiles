@@ -37,4 +37,4 @@ callback() {
     /home/ziadz3tar/Mine/Pro_PY/CALLBACKPING/.venv/bin/python /home/ziadz3tar/Mine/Pro_PY/CALLBACKPING/callback2 "$@"
 }
 #. "$HOME/.cargo/env"
-export PATH="$HOME/.cargo/bin:$PATH"
+#export PATH="$HOME/.cargo/bin:$PATH"
